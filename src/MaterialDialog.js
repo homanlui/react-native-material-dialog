@@ -54,7 +54,7 @@ const MaterialDialog = ({
     onRequestClose={onCancel}
     supportedOrientations={['portrait', 'landscape']}
   >
-    <TouchableWithoutFeedback disabled={disableBackgroundTouch} onPress={onCancel}>
+    <TouchableWithoutFeedback disabled={disableBackgroundTouch ? true : false} onPress={onCancel}>
       <View style={styles.backgroundOverlay}>
         <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : null}>
           <View
