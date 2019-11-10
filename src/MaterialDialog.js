@@ -120,14 +120,14 @@ const styles = StyleSheet.create({
   },
   modalContainer: {
     marginHorizontal: 16,
-    marginVertical: 106,
+    marginVertical: 36,
     minWidth: 280,
     borderRadius: 2,
     elevation: 24,
     overflow: 'hidden',
   },
   modalContainerPadding: {
-    paddingTop: 24,
+    paddingTop: 14,
   },
   titleContainer: {
     paddingHorizontal: 24,
